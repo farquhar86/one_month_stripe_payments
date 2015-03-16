@@ -8,6 +8,12 @@ gem 'sqlite3', group: [:development, :test]
 # this is our production database
 gem 'pg', '~> 0.18.1', group: :production
 
+# Us stripe for ecommerce payments
+gem 'stripe', :git => 'https://github.com/stripe/stripe-ruby'
+
+# Figaro gem for securely managing credentials
+gem "figaro", "~> 0.7.0"
+
 # needed for heroku
 gem 'rails_12factor', group: :production
 # Use SCSS for stylesheets
