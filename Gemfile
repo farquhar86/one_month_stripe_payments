@@ -8,6 +8,9 @@ gem 'sqlite3', group: [:development, :test]
 # this is our production database
 gem 'pg', '~> 0.18.1', group: :production
 
+#add letter opener for handling emails in development
+gem 'letter_opener', group: :development
+
 # Us stripe for ecommerce payments
 gem 'stripe', :git => 'https://github.com/stripe/stripe-ruby'
 
