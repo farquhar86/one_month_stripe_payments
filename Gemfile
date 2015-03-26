@@ -8,9 +8,6 @@ gem 'sqlite3', group: [:development, :test]
 # this is our production database
 gem 'pg', '~> 0.18.1', group: :production
 
-#add letter opener for handling emails in development
-gem 'letter_opener', group: :development
-
 # Us stripe for ecommerce payments
 gem 'stripe', :git => 'https://github.com/stripe/stripe-ruby'
 
@@ -26,6 +23,9 @@ gem 'uglifier', '>= 1.3.0'
 
 #using bootstrap for improving the look and feel of the project
 gem 'bootstrap-sass'
+#add letter opener for handling emails in development
+gem 'letter_opener', group: :development
+
 # Use CoffeeScript for .coffee assets and views
 gem 'coffee-rails', '~> 4.1.0'
 # See https://github.com/sstephenson/execjs#readme for more supported runtimes
