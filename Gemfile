@@ -26,6 +26,12 @@ gem 'bootstrap-sass'
 #add letter opener for handling emails in development
 gem 'letter_opener', group: :development
 
+# Add activeAdmin to generate an admin interface
+gem 'activeadmin', github: 'gregbell/active_admin'
+
+# Add devise to support login for activeAdmin
+gem 'devise'
+
 # Use CoffeeScript for .coffee assets and views
 gem 'coffee-rails', '~> 4.1.0'
 # See https://github.com/sstephenson/execjs#readme for more supported runtimes
